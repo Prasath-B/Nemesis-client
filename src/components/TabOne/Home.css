@@ -1,0 +1,89 @@
+.tabone-page {
+  background-image: url("https://images.pexels.com/photos/1161547/pexels-photo-1161547.jpeg?auto=compress&cs=tinysrgb&dpr=2.7&h=480&w=500");
+  height: 720px;
+  width: 100%;
+  position: absolute;
+  margin-top: 0;
+}
+.post {
+  background-color: rgb(120, 124, 209);
+  text-align: center;
+  width: 600px;
+  height: 500px;
+  margin-left: 2%;
+  margin-top: 2%;
+  border-radius: 20px;
+  padding-top: 30px;
+  text-align: center;
+}
+.tabone-page h1 {
+  font-family: "Dancing Script", cursive;
+  font-size: 50px;
+  letter-spacing: 10px;
+  margin: 30px;
+  margin-bottom: 20px;
+  margin-left: 20%;
+}
+.post p {
+  color: #ccc;
+  font-size: 20px;
+}
+.post a {
+  color: rgb(29, 16, 87);
+  font-size: 20px;
+}
+
+.post input {
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  margin-left: 170px;
+  width: 310px;
+  height: 50px;
+  border: none;
+  text-align: center;
+  font-size: 17px;
+  border: 1px solid rgb(99, 89, 89);
+  border-radius: 20px;
+  outline: none;
+}
+.post textarea {
+  margin: 20px;
+  display: block;
+  margin-left: 170px;
+  width: 310px;
+  height: 120px;
+  border: none;
+  text-align: center;
+  font-size: 17px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  outline: none;
+}
+.post button {
+  margin-bottom: 6px;
+  margin-left: 20px;
+  width: 200px;
+  height: 50px;
+  outline: none;
+  background-color: rgb(0, 30, 128);
+  color: white;
+  border-radius: 10px;
+}
+
+.error-tabone {
+  background-color: rgba(255, 0, 0, 0.301);
+  font-size: 20px;
+  font-weight: 700px;
+  margin-left: 200px;
+  text-align: center;
+  width: 400px;
+}
+.success {
+  background-color: rgba(0, 255, 42, 0.301);
+  font-size: 20px;
+  font-weight: 700px;
+  margin-left: 200px;
+  text-align: center;
+  width: 400px;
+}
